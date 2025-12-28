@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("f6a5e92d-945e-43d3-8393-10d7fe120687")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f3cc687302ba495ff37f0583d5bd4018ea4c7da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cec3fdfe1b01b5a4ac6fe60343405f7a556048d3")]
 [assembly: System.Reflection.AssemblyProductAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
