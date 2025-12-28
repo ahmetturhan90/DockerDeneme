@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f3cc687302ba495ff37f0583d5bd4018ea4c7da")]
 [assembly: System.Reflection.AssemblyProductAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DockerNginx")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
