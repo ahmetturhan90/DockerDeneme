@@ -1,4 +1,3 @@
-# Base runtime image
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 8080
@@ -6,10 +5,9 @@ EXPOSE 8080
 # Build stage
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["DockerNginx/DockerNginx.csproj", "DockerNginx/"]
-RUN dotnet restore "DockerNginx/DockerNginx.csproj"
+COPY ["DockerNginx.csproj", "./"]
+RUN dotnet restore "DockerNginx.csproj"
 COPY . .
-WORKDIR "/src/DockerNginx"
 RUN dotnet publish "DockerNginx.csproj" -c Release -o /app/publish
 
 # Final stage
